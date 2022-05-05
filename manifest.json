@@ -1,0 +1,16 @@
+{
+  "browser_action": {
+    "default_title": "Open Window With Container",
+    "default_popup": "context.html"
+  },
+  "manifest_version": 2,
+  "name": "open-window-with-container",
+  "version": "1.0",
+  "permissions": [
+      "contextualIdentities",
+      "cookies"
+  ],
+  "icons": {
+    "128": "icon.svg"
+  }
+}
