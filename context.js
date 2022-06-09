@@ -1,3 +1,4 @@
+/* global browser */
 function eventHandler(event) {
   if (event.target.dataset.action == 'create') {
     browser.windows.create({
